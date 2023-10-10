@@ -25,10 +25,6 @@ public class ClientServiceImpl implements ClientService {
     @Override
     public Client findById(int id) {
         Optional<Client> client = clientMapper.findById(id);
-        if (client.isPresent()) {
-            return client.get();
-        } else {
-            throw new ResourceNotFoundException("resource not found");
-        }
+        return client.orElseThrow(() -> new ResourceNotFoundException("resource not found:" + id));
     }
 }
