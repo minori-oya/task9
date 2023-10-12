@@ -1,6 +1,6 @@
 package com.task9.crudapi_project.service;
 
-import com.task9.crudapi_project.ResourceNotFoundException;
+import com.task9.crudapi_project.exception.ResourceNotFoundException;
 import com.task9.crudapi_project.mapper.ClientMapper;
 import com.task9.crudapi_project.entity.Client;
 import org.springframework.stereotype.Service;
