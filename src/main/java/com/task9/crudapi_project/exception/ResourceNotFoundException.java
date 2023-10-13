@@ -1,4 +1,4 @@
-package com.task9.crudapi_project;
+package com.task9.crudapi_project.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException() {

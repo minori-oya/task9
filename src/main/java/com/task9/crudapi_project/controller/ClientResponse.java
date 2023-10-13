@@ -1,4 +1,4 @@
-package com.task9.crudapi_project;
+package com.task9.crudapi_project.controller;
 
 import com.task9.crudapi_project.entity.Client;
 
