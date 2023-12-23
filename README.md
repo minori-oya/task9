@@ -1,9 +1,9 @@
-# 概要
-顧客データに関するCRUD処理のREAD機能に特化したREST APIを実装しました。  
+# CRUD処理のRead機能に特化したREST API
+## 概要
+顧客データに関するREAD処理に特化したREST APIを実装しました。  
 また、存在しないIDをリクエストした時の例外ハンドリングも実装してみました。
 
-
-# 動作確認
+## 動作確認
 * GET（全件取得）
 
 ```curl --location 'http://localhost:8080/clients```
